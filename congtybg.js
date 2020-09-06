@@ -1,4 +1,4 @@
-<script>
+
 
 function getNavElements(){
         const _groups = [], _buttons = [];
@@ -81,4 +81,3 @@ window.onload = function(e){
     //onmouseleave
     
 }
-</script>
