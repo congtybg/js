@@ -1,5 +1,3 @@
-
-
 .card-hover:hover{
     background-color:white;
     box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.2);
@@ -21,4 +19,11 @@
 
 .ladi-button{
     cursor:pointer!important;
+}
+
+.partners-group .ladi-image-background{
+    filter: grayscale(100%);
+}
+.partners-group .ladi-image-background:hover{
+    filter: unset;
 }
