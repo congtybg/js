@@ -5,13 +5,13 @@ function getNavElements(){
         
         document.querySelectorAll("div[class*='NAV_GROUP']")
         .forEach(e=>{_groups.push({
-            parent_id: e.parentElement.id,
+            parent_id: e.parentElement.parentElement.id,
             order: e.className
         });});
         
         document.querySelectorAll("div[class*='NAV_BUTTON']")
         .forEach(e=>{_buttons.push({
-            parent_id: e.parentElement.id,
+            parent_id: e.parentElement.parentElement.id,
             order: e.className
         });});
         
